@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+.btn
+{
+    @apply flex justify-center items-center bg-yellow-600 w-44 h-52;
+}
+.btn2
+{
+    @apply bg-white p-2 border-4 border-cyan-400 rounded-xl;
+}
+@tailwind utilities;
